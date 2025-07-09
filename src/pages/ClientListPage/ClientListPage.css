@@ -1,0 +1,10 @@
+.client-list-page {
+  padding: 40px 20px;
+    height: 74vh;
+    max-width: fit-content;
+
+}
+
+.client-list-page h2 {
+  margin-bottom: 20px;
+}
