@@ -7,9 +7,15 @@ function ClientForm({ onSave }) {
     const formData = {
       name: e.target.name.value,
       email: e.target.email.value,
-      phone: e.target.phone.value,
-      company: e.target.company.value
+      address: e.target.address.value,
+      password: e.target.password.value
     };
+      //verifying if both password matches
+    if (e.target.password.value !== e.target.confirmPassword.value) {
+      alert("Passwords do not match");
+      return;
+    }
+
     onSave(formData);
   };
 
@@ -18,33 +24,40 @@ function ClientForm({ onSave }) {
       <div className="form-group">
         <label>
           Name:
-          <input type="text" name="name" required />
+          <input type="text" name="name" placeholder="Enter Name" required />
         </label>
       </div>
 
       <div className="form-group">
         <label>
           Email:
-          <input type="email" name="email" required />
+          <input type="email" name="email" placeholder="Enter Email" required />
         </label>
       </div>
 
       <div className="form-group">
         <label>
-          Phone:
-          <input type="tel" name="phone" placeholder="123-45-678" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
+          Address:
+          <input type="text" name="address" placeholder="Enter Address" required />
         </label>
       </div>
 
       <div className="form-group">
         <label>
-          Company:
-          <input type="text" name="company" />
+          Password:
+          <input type="password" name="password" placeholder="Password" required />
+        </label>
+      </div>
+
+      <div className="form-group">
+        <label>
+          Repeat Password
+          <input type="password" name="confirmPassword" placeholder="Repeat Password" required />
         </label>
       </div>
 
       <button type="submit" className="btn btn-primary">
-        Save Client
+        Register
       </button>
     </form>
   );

@@ -1,9 +1,0 @@
-{
-  "clients": [
-    { "id": 1, "name": "Alice Smith", "email": "alice@example.com", "phone": "123-456-7890", "company": "ABC Corp" },
-    { "id": 2, "name": "Bob Johnson", "email": "bob@example.com", "phone": "987-654-3210", "company": "XYZ Inc" }
-  ],
-  "meetings": [
-    { "id": 1, "clientId": 1, "topic": "Project Kickoff", "date": "2025-07-10", "time": "10:00 AM", "location": "Conference Room A", "attendees": "Alice, Bob" }
-  ]
-}

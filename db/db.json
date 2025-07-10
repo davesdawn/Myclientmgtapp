@@ -1,0 +1,47 @@
+{
+  "clients": [
+    {
+      "id": "1",
+      "name": "Alice Smith",
+      "email": "alice@example.com",
+      "phone": "123-456-7890",
+      "password": "ABC Corp"
+    },
+    {
+      "id": "2",
+      "name": "Bob Johnson",
+      "email": "bob@example.com",
+      "phone": "987-654-3210",
+      "password": "XYZ Inc"
+    },
+    {
+      "id": "cf0e",
+      "name": "david asmah",
+      "email": "daveasmah@gmail.com",
+      "address": "5900 medoc court",
+      "password": "David"
+    }
+  ],
+  "meetings": [
+    {
+      "topic": "Project Kickoff",
+      "date": "2025-07-10",
+      "time": "10:00 AM",
+      "id": "c0b8"
+    },
+    {
+      "id": "775d",
+      "topic": "pay",
+      "attendees": 25,
+      "date": "2025-07-11",
+      "time": "11:30"
+    },
+    {
+      "id": "2baa",
+      "topic": "Layoff",
+      "attendees": 500,
+      "date": "2025-07-31",
+      "time": "08:00"
+    }
+  ]
+}

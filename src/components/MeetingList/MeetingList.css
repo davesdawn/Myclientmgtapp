@@ -1,0 +1,21 @@
+.meeting-list-container {
+  padding: 1rem;
+}
+
+.meeting-list {
+  list-style: none;
+  padding: 0;
+}
+
+.meeting-item {
+  border: 1px solid #ccc;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.loading {
+  font-style: italic;
+  color: #777;
+}

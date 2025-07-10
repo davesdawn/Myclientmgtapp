@@ -1,5 +1,6 @@
-// src/components/ClientList/ClientList.js
+
 import React from 'react';
+import './ClientList.css';
 
 function ClientList({ clients }) {
   return (
@@ -9,7 +10,7 @@ function ClientList({ clients }) {
           <th>Name</th>
           <th>Email</th>
           <th>Phone</th>
-          <th>Company</th>
+         
         </tr>
       </thead>
       <tbody>
@@ -18,7 +19,7 @@ function ClientList({ clients }) {
             <td>{client.name}</td>
             <td>{client.email}</td>
             <td>{client.phone}</td>
-            <td>{client.company}</td>
+           
           </tr>
         ))}
       </tbody>
